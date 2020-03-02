@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share&display=swap'); /* share */
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');/*ZCOOL QingKe HuangYou*/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap'); /*lobster*/
+html,body{
+  margin: 0px;
+  padding:0px;
+}
+body{
+  background-color: #fffdd0;
+}
+#mainContainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  justify-content: center;
+}
+#headerContainer{
+  position: relative;
+  border: 2vmin solid #b9413f;
+  border-top: 0px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 5vmin;
+}
+#logoContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vmin;
+  background-color: #b9413f;
+  border: 1vmin solid white;
+  border-top: 0px;
+}
+#logoPortion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #b9413f;
+  padding: 4vmin;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+ #logoPortion img{
+   height: 2em;
+ }
+ #logoPortion span{
+   font-family: 'Passion One';
+   font-weight: bold;
+   color: white;
+ }
+#sideHeaderInfo{
+  padding: 1vmin;
+  font-family: sans-serif;
+  font-size: 1.5vmin;
+  align-self: flex-end;
+  color: white;
+  background-color: #b9413f;
+ }
+#potionShopContainer{
+  display: block;
+}
+#secondBg{
+  position: absolute;
+  display: flex;
+  top: 75vmin;
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  z-index: -2;
+}
+.potionShopTitle{
+  position: absolute;
+  left: 50vmin;
+  right: 50vmin;
+  top: 80vmin;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap:  nowrap;
+  align-items: center;
+}
+div.potionShopTitle div:first-of-type{
+  font-family: 'Passion One';
+  font-size: 20vmin;
+  color: white;
+}
+div.potionShopTitle div:last-of-type{
+  font-family: 'Lobster';
+  font-size: 12vmin;
+  color: white;
+}
+
+
+div.largePotionItemContainer div.potionTextContainer:first-of-type{
+  position: absolute;
+  left: 20vmin;
+  top: 45vmin;
+  border-radius: 15px;
+  border: 1px solid white;
+  padding: 1vmin;
+  font-size: 3vmin;
+  text-align: center;
+   display: inline-flex;
+   flex-direction: row;
+   background-color: white;
+   opacity: .75;
+ }
+
+ div.largePotionItemContainer div.potionTextContainer:last-of-type{
+   position: absolute;
+   right: 20vmin;
+   top: 45vmin;
+   border-radius: 15px;
+   border: 1px solid white;
+   padding: 1vmin;
+   font-size: 3vmin;
+   text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: white;
+    opacity: .75;
+  }
+ div.largePotionItemContainer img:first-of-type{
+   position: relative;
+   left: 25vmin;
+   width: 35vw;
+     transform: scaleX(1);
+   z-index: -1;
+ }
+ div.largePotionItemContainer img:last-of-type{
+   position: relative;
+   left: 25vmin;
+   width: 35vw;
+   transform: scaleX(-1);
+   z-index: -1;
+ }
+ div.smallPotionItemContainer div.potionTextContainer:first-of-type{
+   position: absolute;
+   left: 15vmin;
+   border-radius: 15px;
+   border: 1px solid white;
+   padding: 1vmin;
+   font-size: 3vmin;
+   text-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    background-color: white;
+    opacity: .75;
+  }
+  div.smallPotionItemContainer div.potionTextContainer:last-of-type{
+    position: absolute;
+    right: 15vmin;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 1vmin;
+    font-size: 3vmin;
+    text-align: center;
+     display: inline-flex;
+     flex-direction: row;
+     background-color: white;
+     opacity: .75;
+   }
+ div.smallPotionItemContainer img:first-of-type{
+   position: relative;
+   right:7vmin;
+   bottom: 41vmin;
+   width: 35vw;
+   transform: scaleX(1);
+   z-index: -1;
+ }
+
+ div.smallPotionItemContainer img:last-of-type{
+   position: relative;
+   left: 57vmin;
+   bottom: 41vmin;
+   width: 35vw;
+   transform: scaleX(-1);
+   z-index: -1;
+ }
+.potionDescriptionText{
+  font-family: 'Share';
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.potionDescriptionText div:last-of-type{
+  font-size: 1.7vmin;
+}
+.price{
+  font-family: 'ZCOOL QingKe HuangYou';
+  padding: 1vmin;
+font-size: 5vmin;
+}
+
+div.dealText div:first-of-type{
+ font-size: 3vmin;
+}
+
+div.dealText div:last-of-type{
+ font-size: 2vmin;
+}
+.bottomInfoContainer{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+div.dealSectionContainer img{
+  padding-left: 5vmin;
+  width: 25vmin;
+}
+div.dealSectionContainer img:last-of-type{
+  height: 25vmin;
+  width: 10vmin;
+  padding: 0px;
+}
+div.dealSectionContainer2 img:last-of-type{
+  position: relative;
+  right: 25vmin;
+  height: 25vmin;
+  width: 10vmin;
+  padding: 0px;
+}
+.dealText{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5vmin;
+  font-family: 'Share';
+}
+
+.price2{
+  font-family: 'ZCOOL QingKe HuangYou';
+  font-size: 8vmin;
+}
+
+.dealSectionContainer{
+  position: absolute;
+  top:115vmin;
+  padding: 7vmin;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+#potion1{
+  position: relative;
+  padding: 0px;
+  bottom: 6vmin;
+}
+#potion2{
+  width: 17vw;
+  padding: 0px;
+  bottom: 3vmin;
+  position:relative;
+  right: 19vmin;
+}
+#buyonegetonefree{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  color: white;
+}
+#buyonegetonefree div{
+  position: relative;
+  line-height: 1;
+  font-size: 3vmin;
+  text-align: center;
+  right: 48vmin;
+  bottom: 3vmin;
+  font-family: 'Passion One'
+}
+#buyonegetonefree div:last-of-type{
+  font-family: 'Lobster';
+  font-size: 5vmin;
+}
+#circle{
+  position: relative;
+  width:9vw;
+  height: 9vw;
+  right: 48vmin;
+  top: 10vmin;
+}
+.pokeballSectionContainer{
+  padding: 0px;
+  position: absolute;
+  width: 40vw;
+  left: 60vmin;
+  top: 1vmin;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #b9413f;
+}
+
+.cursive{
+  font-size: 8vmin;
+  font-family: 'Lobster';
+}
+.straight{
+  font-size: 12vmin;
+  font-family: 'Passion One';
+}
+.cursive2{
+  position: relative;
+  bottom: 3vmin;
+  font-size: 11vmin;
+  font-family: 'Lobster';
+}
+.straight2{
+  position: relative;
+  bottom: 3vmin;
+  font-size: 8vmin;
+  font-family: 'Passion One';
+}
+div.pokeballSectionContainer img:last-of-type{
+  position: relative;
+  bottom: 39vmin;
+  right: 3vmin;
+  width: 19vw;
+  height: 5vw;
+}
+.eventSectionContainer{
+  padding:0px;
+  position: absolute;
+  width: 70vw;
+  height: 23vh;
+  top: 30vmin;
+  right: 40vmin;
+  background-color: #59bcd6;
+  border-radius: 0px 100px 100px 0px;
+  border: 1px solid #59bcd6;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: -3;
+}
+#happy{
+  position:absolute;
+  top: 2vmin;
+  right: 99vmin;
+  width: 9.5vw;
+  height: 10.5vw;
+}
+#pokeball{
+  position:relative;
+  left: 15vmin;
+  bottom: 27vmin;
+  width: 20vw;
+  height: 20vw;
+  transform: scaleX(-1);
+}
+#eventText{
+  position: relative;
+  left: 19vmin;
+  top: 1vmin;
+  width: 60vw;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#eventText div{
+  font-family: 'Passion One';
+}
+#eventText p{
+  position: relative;
+  bottom: 7vmin;
+}
+#eventText div:first-of-type{
+  font-size: 7vmin;
+}
+#eventText div:last-of-type{
+  width: 45vw;
+  position:relative;
+  bottom: 14vmin;
+  font-size: 1vmin;
+}
+
+#eventText span{
+  font-family: 'Lobster';
+}
+.dealSectionContainer2{
+  position:relative;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dealInfoContainer{
+  display: flex;
+  flex-direction: column;
+}
+#thirdBg{
+  position: absolute;
+  display: flex;
+  top: 110vmin;
+  width: 100vw;
+  height: 70vh;
+  align-items: center;
+  z-index: -4;
+}
