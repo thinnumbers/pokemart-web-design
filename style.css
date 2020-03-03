@@ -339,7 +339,7 @@ div.pokeballSectionContainer img:last-of-type{ /* pokeball arrow image*/
 #happy{ /* happy person logo for event */
   position:absolute;
   top: 2vmin;
-  right: 99vmin;
+  right: 103vmin;
   width: 9.5vw;
   height: 10.5vw;
 }
