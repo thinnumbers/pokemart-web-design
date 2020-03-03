@@ -326,7 +326,7 @@ div.pokeballSectionContainer img:last-of-type{ /* pokeball arrow image*/
   width: 70vw;
   height: 23vh;
   top: 30vmin;
-  right: 40vmin;
+  right: 43vmin;
   background-color: #59bcd6; /* color blue bg */
   border-radius: 0px 100px 100px 0px; /* creates the round border */
   border: 1px solid #59bcd6; /* color blue border*/
@@ -339,7 +339,7 @@ div.pokeballSectionContainer img:last-of-type{ /* pokeball arrow image*/
 #happy{ /* happy person logo for event */
   position:absolute;
   top: 2vmin;
-  right: 103vmin;
+  right: 102vmin;
   width: 9.5vw;
   height: 10.5vw;
 }
@@ -353,7 +353,7 @@ div.pokeballSectionContainer img:last-of-type{ /* pokeball arrow image*/
 }
 #eventText{ /* text for event */
   position: relative;
-  left: 19vmin;
+  left: 21vmin;
   top: 1vmin;
   width: 60vw;
   display: inline-flex;
